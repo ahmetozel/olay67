@@ -102,6 +102,11 @@
             }
         }
     </style>
+    <script>
+        if (document.URL.startsWith('http://')) {
+            window.location.href = document.URL.replace('http://','https://');
+        }
+    </script>
 </head>
 <body>
     <div class="container">
